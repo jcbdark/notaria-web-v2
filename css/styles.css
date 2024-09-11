@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color:darkblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 2vw;
+}
+nav ul  {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+    gap: 12vw;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: lightblue;
+    border-bottom: 2px solid white;
+}
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: black;
+}
+.fondo {
+    width: 100%;
+    height: auto;
+}
+.logo
+{
+    width: 10vh;
+    height: 10vh;
+}
+footer {
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.gallery img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
