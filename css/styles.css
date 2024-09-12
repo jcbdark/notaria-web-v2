@@ -3,12 +3,14 @@
     margin: 0;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: bold;
     font-style: normal;
-    font-size:20px;
+    font-size:25px;
 }
 
-
+footer {
+    background-color: darkblue;
+}
 header {
     background-color:darkblue;
     display: flex;
@@ -75,3 +77,9 @@ footer {
 .gallery img:hover {
     transform: scale(1.05);
 }
+.contacto {
+    display: flex;
+    gap: 25vh;
+    padding: 5rem;
+}
+
