@@ -3,14 +3,14 @@ body {
     font-size: 24px;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: darkblue;
 }
 
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #333;
+    background-color: darkblue;
     color: white;
     padding: 20px;
 }
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #333;
+    background-color: darkblue;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -78,12 +78,12 @@ footer {
     width: 10vh;
     height: 10vh;
 }
-footer {
+/*footer {
     padding: 1rem;
     text-align: center;
     width: 100%;
     height: auto;
-}
+}*/
 .gallery {
     display: grid;
     grid-template-columns: repeat(3,1fr); 
@@ -104,11 +104,15 @@ footer {
 .gallery img:hover {
     transform: scale(1.05);
 }
+.gallery .img-2 {
+    grid-template-columns: span 2;
+}
 .contacto {
     display: flex;
     gap: 25vh;
     padding: 5rem;
 }
+
 
 
 
