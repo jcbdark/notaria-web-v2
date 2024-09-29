@@ -1,33 +1,12 @@
-body {
+* {
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
     margin: 0;
     padding: 0;
-    color: darkblue;
+    box-sizing: border-box;
 }
-
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: darkblue;
-    color: white;
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color:white;
 }
 .hero {
     position: relative;
@@ -73,17 +52,6 @@ footer {
     width: 100%;
     height: auto;
 }
-.logo
-{
-    width: 10vh;
-    height: 10vh;
-}
-/*footer {
-    padding: 1rem;
-    text-align: center;
-    width: 100%;
-    height: auto;
-}*/
 .gallery {
     display: grid;
     grid-template-columns: repeat(3,1fr); 
@@ -112,6 +80,28 @@ footer {
     gap: 25vh;
     padding: 5rem;
 }
+.navbar-toggler{
+    background-color: white;
+}
+.form-header {
+    background-color: darkblue; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+}
+.form-control:focus {
+    border-color: #0056b3; /* Cambia el color del borde al enfocar */
+    box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25); /* Sombra azul */
+}
+.btn-blue {
+    background-color: #0056b3; /* Color azul oscuro */
+    border: none;
+}
+.btn-blue:hover {
+    background-color: #004085; /* Azul más oscuro en hover */
+}
+
+
 
 
 
